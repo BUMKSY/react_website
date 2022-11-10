@@ -1,0 +1,121 @@
+/* imageType */
+#imageType h2 {
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.image__inner {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'GmarketSans';
+}
+.image__box {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.image__imagecon {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 23%;
+    height: 337px;
+    margin-top: 30px;
+}
+
+.image__imagecon div {
+    border-radius: 5%;
+}
+
+.iamge_imagebox1 {
+    background: url(../img/image_bg01.jpg) no-repeat center;
+    height: 100%;
+}
+
+.iamge_imagebox2 {
+    background: url(../img/image_bg02.jpg) no-repeat center;
+    height: 100%;
+}
+
+.iamge_imagebox3 {
+    background: url(../img/image_bg03.jpg) no-repeat center;
+    height: 100%;
+}
+
+.iamge_imagebox4 {
+    background: url(../img/image_bg04.jpg) no-repeat center;
+    height: 100%;
+}
+
+.iamge_imagebox5 {
+    background: url(../img/image_bg05.jpg) no-repeat center;
+    height: 100%;
+}
+
+.iamge_imagebox6 {
+    background: url(../img/image_bg06.jpg) no-repeat center;
+    height: 100%;
+}
+
+.iamge_imagebox7 {
+    background: url(../img/image_bg07.jpg) no-repeat center;
+    height: 100%;
+}
+
+.iamge_imagebox8 {
+    background: url(../img/image_bg08.jpg) no-repeat center;
+    height: 100%;
+}
+
+
+.image_text {
+    display: block;
+   
+}
+
+.image__title {
+    font-size: 28px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.image__desc {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
+.image__btn {
+    font-size: 16px;
+    color: #fff;
+    background-color: #b45a30;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.image__btn.yellow {
+    background-color: #b59140;
+}
+
+@media (max-width: 600px){
+    .image__inner {
+        flex-direction: column;
+    }
+    .image {
+        width: 100%;
+        padding: 210px 20px 20px 20px
+    }
+    .image:first-child {
+        margin-bottom: 20px;
+    }
+    .image__title {
+        font-size: 24px;
+    }
+}

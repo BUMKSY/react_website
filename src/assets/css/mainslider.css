@@ -1,0 +1,16 @@
+
+.slider__inner {
+    display: flex;
+    justify-content: center;
+}
+
+
+.mainSlide__con {
+    width: 100%;
+    height: 700px;
+    margin-top: 113px;
+    overflow: hidden;
+
+}
+
+

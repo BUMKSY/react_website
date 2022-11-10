@@ -1,0 +1,61 @@
+.banner__inner {
+    background-image: url(../img/banner_bg01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 120px 0;
+    color: #fff;
+    font-family: 'GmarketSans';
+}
+
+
+.banner__inner .title {
+    font-size: 50px;
+    line-height: 1;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.banner__inner .desc {
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-bottom: 70px;
+}
+.banner__inner .desc a {
+    color: #fff;
+    display: block;
+}
+.banner__inner .desc a:hover {
+    text-decoration: underline;
+}
+.banner__inner .small {
+    display: inline-block;
+    background: #FF3344;
+    font-size: 16px;
+    padding: 15px 65px 15px 65px;
+}
+
+.banner__inner .small a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 960px){
+    .banner__inner {
+        padding: 100px 0;
+    }
+}
+
+@media (max-width: 600px){
+    .banner__inner {
+        padding: 80px 0;
+    }
+    .banner__inner .title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .banner__inner .desc {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+}
